@@ -1,0 +1,116 @@
+npm install
+
+json-server --watch db.json
+
+npx json-server --watch db.json
+
+
+
+^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !?@#$%¨&*_=+-^]).{6,12}$
+
+cada chamado tem uma classificação e a cada pedido vai para o ID do gerente 
+
+
+cada chamado tem uma classificação e essa classificação determina o prazo maximo de solução que se excedido implica em movimentar o chamado para o ID do gerente
+
+
+
+
+Procurar na documentação do Java
+
+De onde pertence o System.out.print(); 
+
+
+
+
+
+class App extends React.Component {
+
+  render() {
+const fotos = [
+
+  {
+    id : 0,
+    foto : './assets/img/p0.png',
+  },
+
+  {
+    id : 1,
+    foto : 'foto1',
+  },
+
+  {
+    id : 2,
+    foto : 'foto2',
+  },
+
+  {
+    id : 3,
+    foto : 'foto3',
+  },
+
+  {
+    id : 4,
+    foto : 'foto4',
+  },
+
+  {
+    id : 5,
+    foto : 'foto5',
+  },
+
+  {
+    id : 6,
+    foto : 'foto6',
+  },
+]
+
+
+    return (
+        <SafeAreaView style = {{padding : 80}}>
+          <FlatList
+            data={ fotos }
+            keyExtractor={(item) => item.id.toString() }
+            renderItem={ ({item}) => (
+              <View style={estilos.pais}>
+                  <Image
+                    source={{ uri: item.foto}}
+                    style={estilos.imagem} 
+                  /> 
+              </View>
+            )}/>
+
+            <View style = { estilos.botoes }>
+              <Button 
+                title = "Imagem anterior"
+              />
+            </View>
+
+            <View style = { estilos.botoes }>
+              <Button 
+                title = "Imagem anterior"
+              />
+            </View>
+        </SafeAreaView>
+
+      )
+
+  }
+}
+
+
+
+
+@WebServlet(urlPatterns = "/oii")
+@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+		
+		PrintWriter out = resp.getWriter();
+		out.println("<html>");
+		out.println("<body>");
+		out.println("oi mundo, parabéns.");
+		out.println("</body>");
+		out.println("</html>");
+		
+		System.out.println("Entrando em oiMundoServlet");
+	}

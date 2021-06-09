@@ -1,0 +1,9 @@
+br\com\magnasistemas\controller\MemberController.class
+br\com\magnasistemas\data\MemberListProducer.class
+br\com\magnasistemas\rest\MemberResourceRESTService.class
+br\com\magnasistemas\data\MemberRepository.class
+br\com\magnasistemas\service\MemberRegistration.class
+br\com\magnasistemas\util\Resources.class
+br\com\magnasistemas\model\Member.class
+br\com\magnasistemas\model\Member_.class
+br\com\magnasistemas\rest\JaxRsActivator.class
