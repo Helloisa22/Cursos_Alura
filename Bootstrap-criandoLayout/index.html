@@ -4,20 +4,47 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css"></link>
     </head>
     <body>
         <div class="container">
-            <h2>Sobre nós</h2>
+            <h3>Sobre nós</h3>
             <img src="./assets/img/empresa.jpg" class="img-responsive" alt="Responsive image">
 
-            <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
-            <p id="primeiro-paragrafo" class="collapse in">A top casa arquitetura esta no mercado desde...</p>
+            <div class="panel-group" id="paineis-sobre">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-parent="#paineis-sobre" data-target="#primeiro-paragrafo">Desde 1935</h3>
+                    </div>
+                    <div id="primeiro-paragrafo" class="collapse in">
+                        <div class="panel-body" >
+                            <p>A top casa arquitetura esta no mercado desde...</p>
+                        </div>
+                    </div>
+                </div>
 
-            <h2 data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h2>
-            <p id="segundo-paragrafo" class="collapse in">A top casa arquitetura esta no mercado desde...</p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-parent="#paineis-sobre"data-target="#segundo-paragrafo">Desde 1935</h3>
+                    </div>
+                    <div id="segundo-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p>A top casa arquitetura esta no mercado desde...</p>
+                        </div>
+                    </div>
+                </div>
 
-            <h2 data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h2>
-            <p id="terceiro-paragrafo" class="collapse in">A top casa arquitetura esta no mercado desde...</p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-parent="#paineis-sobre"data-target="#terceiro-paragrafo">Desde 1935</h3>
+                    </div>
+                    <div id="terceiro-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p>A top casa arquitetura esta no mercado desde...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script src="./assets/JS/jquery.js"></script>
